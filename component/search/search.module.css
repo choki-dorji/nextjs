@@ -1,0 +1,147 @@
+
+.header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.searchcontainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+    border-radius: 4px 0 0 4px;
+}
+/* 
+.button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+} */
+
+.main {
+    padding: 20px;
+}
+
+.tasklist {
+    display: grid;
+    gap: 20px;
+}
+
+.taskitem {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.duedate {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ff4b13;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #b52d04;
+}
+
+
+.button1 {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ff4b13;
+    border: 2px solid #ff4b13;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 0.6rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button1:hover {
+    background-color: #cacccb;
+}
+
+
+.inputWrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  
+.errorIcon,
+.successIcon {
+  position: relative;
+  right: 24px;
+  top: -5px;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  font-size: 20px;
+}
+
+.errorIcon {
+  color: red;
+}
+
+.successIcon {
+  color: green;
+}
+  /* search.module.css */
+.trashButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 20px;
+    color: #d81e1e; /* Adjust the color as needed */
+  }
+  
